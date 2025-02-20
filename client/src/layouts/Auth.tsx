@@ -13,7 +13,7 @@ const Auth: React.FC<AuthProps> = ({ isSeller , children, }) => {
     <div className="flex h-screen">
       <div className="w-1/2 hidden md:block bg-gray-100 relative">
       {
-        isSeller ? ( <img src={image1} alt="Magic Clay" className="w-auto h-full object-none" />) :
+        isSeller ? ( <img src={image1} alt="Magic Clay" className="w-auto rounded-tr-3xl rounded-br-3xl h-full object-none" />) :
         ( <img src={react} alt="Magic Clay" className="w-auto h-full object-none" />)
       }
        
